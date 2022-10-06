@@ -170,3 +170,90 @@ header ul li a {
  background: var(--color-starbucks);
  clip-path: circle(600px at right 800px);
 }
+
+@media screen and (max-width: 768px) {
+ section {
+  padding: 0 1rem;
+  min-height: 90vh;
+ }
+ header ul li a {
+  display: none;
+  padding: 0;
+ }
+
+ header .logo {
+  left: 2rem;
+ }
+
+ .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .content .textBox h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+ }
+ .content .textBox h2 span {
+  color: var(--color-starbucks);
+  font-size: 2rem;
+  font-weight: 900;
+ }
+
+ .content .textBox p {
+  color: #333;
+  font-size: 0.8rem;
+ }
+
+ .content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px 6px;
+  font-size: 0.7rem;
+  background: var(--color-starbucks);
+  color: #fff;
+  border-radius: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+  text-decoration: none;
+ }
+
+ .content .imgBox img {
+  max-width: 280px;
+ }
+
+ .thumb {
+  left: 18%;
+  max-width: 60px;
+ }
+
+ .sci {
+  top: 18%;
+  margin-right: 2rem;
+ }
+
+ .sci li a {
+  filter: invert(0);
+ }
+
+ .sci li img {
+  width: 30px;
+  height: 50px;
+ }
+
+ .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-starbucks);
+  clip-path: circle(300px at right 800px);
+ }
+}
