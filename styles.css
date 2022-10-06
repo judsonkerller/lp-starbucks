@@ -174,7 +174,7 @@ header ul li a {
 @media screen and (max-width: 768px) {
  section {
   padding: 0 1rem;
-  min-height: 90vh;
+  min-height: 100vh;
  }
  header ul li a {
   display: none;
@@ -182,7 +182,7 @@ header ul li a {
  }
 
  header .logo {
-  left: 2rem;
+  left: 23%;
  }
 
  .content {
@@ -208,7 +208,7 @@ header ul li a {
 
  .content .textBox p {
   color: #333;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
  }
 
  .content .textBox a {
@@ -225,7 +225,8 @@ header ul li a {
  }
 
  .content .imgBox img {
-  max-width: 280px;
+  max-width: 300px;
+  margin-left: 1.5rem;
  }
 
  .thumb {
@@ -234,8 +235,8 @@ header ul li a {
  }
 
  .sci {
-  top: 18%;
-  margin-right: 2rem;
+  top: 14%;
+  margin-right: 1rem;
  }
 
  .sci li a {
@@ -243,6 +244,7 @@ header ul li a {
  }
 
  .sci li img {
+  display: none;
   width: 30px;
   height: 50px;
  }
